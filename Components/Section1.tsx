@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Section1() {
   return (
-    <section className='w-[1280px] h-[1028px]  font-roboto '>
+    <section id='Home' className='w-[1280px] h-[1028px]  font-roboto '>
       <div className='flex'>
       <div className='w-[640px] h-[300px] my-[250px]  pl-[80px] pr-[60px] flex flex-col gap-[24px]'>
         <div className='w-[500px] h-[212px] flex flex-col gap-[24px]'>

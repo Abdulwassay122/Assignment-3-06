@@ -31,12 +31,12 @@ export default function Header() {
           </div>
           <div className='w-[910px] h-[44px] ml-[111.4px] flex'>
             <nav className='flex font-roboto text-[16px]'>
-            <li className='p-[10px] mr-[32px] w-[64px] h-[44px] list-none'><Link href="/">Home</Link></li>
-            <li className='p-[10px] mr-[32px] w-[79px] h-[44px] list-none'><Link href="/">Courses</Link></li>
-            <li className='p-[10px] mr-[32px] w-[81px] h-[44px] list-none'><Link href="/">Services</Link></li>
-            <li className='p-[10px] mr-[32px] w-[113px] h-[44px] list-none'><Link href="/">Achievement</Link></li>
-            <li className='p-[10px] mr-[32px] w-[86px] h-[44px] list-none'><Link href="/">About Us</Link></li>
-            <li className='p-[10px] mr-[32px] w-[104px] h-[44px] list-none'><Link href="/">Testimonial</Link></li>
+            <li className='p-[10px] mr-[32px] w-[64px] h-[44px] list-none'><Link href="#Home">Home</Link></li>
+            <li className='p-[10px] mr-[32px] w-[79px] h-[44px] list-none'><Link href="#Courses">Courses</Link></li>
+            <li className='p-[10px] mr-[32px] w-[81px] h-[44px] list-none'><Link href="#Services">Services</Link></li>
+            <li className='p-[10px] mr-[32px] w-[113px] h-[44px] list-none'><Link href="#Achievement">Achievement</Link></li>
+            <li className='p-[10px] mr-[32px] w-[86px] h-[44px] list-none'><Link href="#AboutUs">About Us</Link></li>
+            <li className='p-[10px] mr-[32px] w-[104px] h-[44px] list-none'><Link href="#Testimonial">Testimonial</Link></li>
           </nav>
           <div className='h-[40px] w-[191px] flex py-[1px]'>
             <button className='w-[80px] h-[40px] rounded-[5px] border-solid border-black border-[1px]'>Login</button>

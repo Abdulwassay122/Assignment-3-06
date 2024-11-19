@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className='w-[1280px] h-[1049px] font-roboto py-[112px]'>
+    <section id='Services' className='w-[1280px] h-[1049px] font-roboto py-[112px]'>
 
       <div className='w-[768px] h-[109px] flex flex-col gap-[24px] mx-[256px]'> {/*  section 1 */}
         <h2 className='text-[48px] font-bold leading-[57.6px]'>Explore Courses By Category</h2>

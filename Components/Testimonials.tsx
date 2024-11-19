@@ -9,7 +9,7 @@ import lArrow from '../Assets/right-arrow.svg'
 
 export default function Testimonials() {
   return (
-    <section className='h-[830.89px] w-[1280px] bg-[#F7F7F7] py-[112px] flex flex-col gap-[80px]'>
+    <section id='Testimonial' className='h-[830.89px] w-[1280px] bg-[#F7F7F7] py-[112px] flex flex-col gap-[80px]'>
       <div className="w-[560px] h-[109px] flex flex-col gap-[24px] ml-[64px]">
         <h2 className='leading-[57.6px] font-bold text-[48px]'>Customer testimonials</h2>
         <p className='leading-[27px] text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

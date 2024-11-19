@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Courses() {
   return (
-    <section className='w-[1280px] h-[1742px] py-[112px] flex flex-col gap-[60px] '>
+    <section id='Courses' className='w-[1280px] h-[1742px] py-[112px] flex flex-col gap-[60px] '>
       <div className='w-[768px] h-[118px] flex flex-col gap-[24px] mx-[256px]'>
         <h1 className='text-[56px] font-bold text-center leading-[67.2px]'>Courses</h1>
         <p className='text-[18px] text-center leading-[27px]'>Your Ultimate Guide to learning</p>

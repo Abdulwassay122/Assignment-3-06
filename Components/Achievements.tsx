@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Achievements() {
   return (
-    <section className='w-[1280px] h-[445px] pt-[69px] pb-[112px] '>
+    <section id='Achievement' className='w-[1280px] h-[445px] pt-[69px] pb-[112px] '>
       <div className='w-[1152px] h-[264px] flex flex-col gap-[24px]'>
         <div className='h-[136px] w-[1152px] flex flex-col gap-[24px] mx-[64px]'>
             <h2 className='text-[48px] leading-[57.6px] font-bold text-center'>Our Achivements</h2>
